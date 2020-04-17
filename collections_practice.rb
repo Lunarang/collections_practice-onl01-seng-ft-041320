@@ -23,3 +23,7 @@ def kesha_maker(array)
   array.each { |x| new << x.sub(x[2], "$") }
   new
 end
+
+def find_a(array)
+  array.select { |x| x.start_with? a }
+end
