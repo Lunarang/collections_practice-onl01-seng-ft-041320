@@ -20,6 +20,6 @@ end
 
 def kesha_maker(array)
   new = []
-  array.each { |x| new << x.gsub[] "$" }
+  array.each { |x| new << x.sub[] "$" }
   new
 end
